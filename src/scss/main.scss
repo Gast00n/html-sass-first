@@ -1,0 +1,32 @@
+// VARIABILI
+
+$primary-color: tomato;
+
+// CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    background: #fff;
+}
+
+h2,
+h3 {
+    text-align: center;
+    color: $primary-color;
+}
+
+.bloccoTesti {
+    width: 35%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.bloccoTesti p {
+    padding: 5px;
+}
